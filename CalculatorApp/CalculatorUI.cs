@@ -18,6 +18,7 @@ namespace CalculatorApp
         }
 
        Calculator aCalculator =new Calculator();
+        //this funtion shows 2 numbers addition
         private void addButton_Click(object sender, EventArgs e)
         {
             resultTextBox.Text = aCalculator.Add(Convert.ToDouble(firstNumberTextBox.Text), Convert.ToDouble(secondNumberTextBox.Text)).ToString();
