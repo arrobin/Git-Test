@@ -24,6 +24,7 @@ namespace CalculatorApp
             resultTextBox.Text = aCalculator.Add(Convert.ToDouble(firstNumberTextBox.Text), Convert.ToDouble(secondNumberTextBox.Text)).ToString();
         }
 
+        //this funtion shows 2 numbers subtraction
         private void subtractButton_Click(object sender, EventArgs e)
         {
             resultTextBox.Text = aCalculator.Subtract(Convert.ToDouble(firstNumberTextBox.Text), Convert.ToDouble(secondNumberTextBox.Text)).ToString();
